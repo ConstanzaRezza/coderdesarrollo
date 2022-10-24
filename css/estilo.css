@@ -41,47 +41,14 @@ a {
 
 .navbar-brand > img {
     border-radius: 70%;
-    width: 95px;
+    width: 85px;
 }
-
 
 
 .viveka {
     color: rgb(78, 78, 150);
+    align-items: center;
 }
-
-
-
-
-/*
-    
-.logo {
-    display: flex;
-    flex-direction: row;
-    padding-left: 50px;
-    text-align: center;
-     
-
-}
-.logo img {
-    border-radius: 100px;
-    margin-top: 10px;
-
-    
-  
-    
-    
-
-}
-
-.tituloLogo {
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(26, 26, 66);
-    margin-left: 20px;
-    margin-top: 45px;
-     
-}
-*/
 
 
 
@@ -112,11 +79,32 @@ footer {
     padding-top: 10px;
     padding-right: 30px;
     padding-left: 150px;
+    color: inherit;
     
     
 
   
 }
+
+.icons-social-networks > a {
+--size:10px;
+width: var(--size);
+height:var(--size);
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.icons-social-networks >a:hover{
+    filter: opacity(0.5);
+}
+
+
+
+
+
 
 /*  --------   Index  -------*/
 
