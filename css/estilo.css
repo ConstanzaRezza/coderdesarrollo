@@ -1,11 +1,10 @@
 
 
-
+/*  ----   BODY   ----*/
 
 body {
 
-    font-family: monospace ;
-    background-color: rgba(152, 144, 119, 0.693);
+    background-color:white;
     width: 100%;
     margin:0% ;
     
@@ -29,7 +28,7 @@ nav ul li {
     
 }
     nav ul li a {
-text-decoration: none;
+    text-decoration:wavy;
     padding-top: 30px;
     color:rgb(78, 78, 150) ;
     
@@ -52,16 +51,11 @@ a {
 
 
 
+/*   --- HEADER  ----*/
 
 
-header {
-    display: flex;
-    flex-direction: row;
-   /* justify-content: space-between;*/
-    background-color: white;
-    margin: 0%; 
 
-}
+/* ----  MAIN  ----*/
 
 main  {
    
@@ -73,9 +67,12 @@ main  {
  }
 
 
+
+
+ /*  ----- FOOTER   ----*/
 footer {
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-right: 30px;
     padding-left: 150px;
@@ -86,8 +83,8 @@ footer {
   
 }
 
-.icons-social-networks > a {
---size:10px;
+.iconos img {
+--size:45px;
 width: var(--size);
 height:var(--size);
 border-radius: 50%;
@@ -97,7 +94,7 @@ align-items: center;
 
 
 }
-.icons-social-networks >a:hover{
+.iconos img:hover{
     filter: opacity(0.5);
 }
 
@@ -113,12 +110,11 @@ align-items: center;
 .cajaIndex {
     display: flex;
     flex-direction: row;
-    
     background-color: rgba(255, 255, 255, 0.759);
     width: 500px;
     text-align: center;
-    margin-top: 90px;
-    margin-left: 120px;
+    margin-top: 130px;
+    
     margin-bottom: 90px;
     box-sizing: border-box;
     padding: 70px 70px 70px 70px;
@@ -145,13 +141,23 @@ align-items: center;
     flex-direction: row;
     background-image: url(../imagenes/yogamanosback.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:center;
     width: 100%;
     padding: 70px;
+    margin: 0%;
    
 
 
 }
+
+.icono-meditacion{
+    --box-size:100px;
+    width: var(--box-size);
+    height: var(--box-size);
+    padding: 5px;
+}
+
+
 
 
 .imagenIndex {
@@ -189,7 +195,7 @@ align-items: center;
     margin:0%
  }
     .mainIndex {
-        margin-left: 0px;
+        margin: 0px;
         
 
     }
