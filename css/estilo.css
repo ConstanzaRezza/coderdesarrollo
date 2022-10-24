@@ -12,13 +12,13 @@ body {
 
 }
 
-
+/*   ----- NAV -----*/
 
 nav ul li {
    
     display: inline-block;
-    border: 30px;
-    padding: 30px;
+    border: 20px;
+    padding: 20px;
     text-align: right;
     font-family: sans-serif;
     font-size: 25px;
@@ -29,19 +29,37 @@ nav ul li {
     
 }
     nav ul li a {
-    text-decoration: none;
+text-decoration: none;
     padding-top: 30px;
-    color: rgba(152, 144, 119, 0.693);
+    color:rgb(78, 78, 150) ;
     
     
 }
+a {
+    color: inherit;
+}
 
+.navbar-brand > img {
+    border-radius: 70%;
+    width: 95px;
+}
+
+
+
+.viveka {
+    color: rgb(78, 78, 150);
+}
+
+
+
+
+/*
     
 .logo {
     display: flex;
     flex-direction: row;
     padding-left: 50px;
-   text-align: center;
+    text-align: center;
      
 
 }
@@ -63,18 +81,18 @@ nav ul li {
     margin-top: 45px;
      
 }
+*/
+
+
+
+
 
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
     background-color: white;
-    margin: 0%;
-    
-
-    
-
-    
+    margin: 0%; 
 
 }
 
@@ -134,13 +152,14 @@ footer {
 }
 
 
-.mainIndex  {
+.headerIndex  {
     display: flex;
     flex-direction: row;
     background-image: url(../imagenes/yogamanosback.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
+    padding: 70px;
    
 
 
@@ -359,6 +378,10 @@ label {
     margin-right: 20px;
     margin-left: 20px;
     padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
     
 
 
@@ -367,13 +390,24 @@ label {
     border-radius: 70%;
     width:  350px; 
     width: 300px;
+
     
    
 }
 
 
+.presencial {
+    box-sizing: border-box;
+    background-color: white;
+    align-items: center;
+    
+}
 
-
+.online {
+    box-sizing: border-box;
+    background-color: white;
+    align-items: center;
+}
  /*  ------  formacion   -----*/
 
  .mainFormacion {
