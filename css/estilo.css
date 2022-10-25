@@ -190,8 +190,14 @@ align-items: center;
     align-items: center;
  }
 
+nav ul li {
+   display: flex;
+   flex-direction: row;
+    font-size: 10px;
 
  }
+}
+
 /* ------- PAGINA profesores  --------*/
 
 
@@ -200,7 +206,7 @@ align-items: center;
     flex-direction:column;
     padding: 280px;
     padding-top: 50px;
-
+    margin-top: 250px;
     
 
 }
@@ -296,8 +302,8 @@ form {
     width: 400px;
     border-radius: 3px;
     padding: 20px 40px;
-    grid-area: main;
     margin: auto;
+    margin-top: 160px;
 
 }
 
@@ -343,14 +349,12 @@ label {
 }
 
 
-
-
-
+ 
 
 /*   ----- PAGINA  clases   ---- */
 
 .headerClases{
-    margin-top: 120px;
+    margin-top: 140px;
    
 }
 
@@ -389,7 +393,9 @@ label {
     width: 250px;
  }
 
-
+footer{
+    padding-left: 15px;
+}
 }
 
  /*  ------ PAGINA formacion   -----*/
