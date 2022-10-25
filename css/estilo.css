@@ -71,7 +71,6 @@ footer {
     background-color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-right: 30px;
-    padding-left: 150px;
     color: inherit;
     
     
@@ -178,32 +177,21 @@ align-items: center;
     align-items: center;
     width: fit-content;
     padding-top: 20px;
+    margin: 0%;
+
 
  } 
  
- .mainText {
-    font-size: small;
- }
+
  .cajaIndex {
-    padding: 10%;
+    padding: 10px;
     width: 320px;
     margin:0%;
     align-items: center;
  }
-    .mainIndex {
-        margin: 0px;
-        
-
-    }
-    .header{
-        margin:0%
-
-    }
-
-   
-}
 
 
+ }
 /* ------- PAGINA profesores  --------*/
 
 
@@ -354,14 +342,17 @@ label {
     display: inline;
 }
 
+
+
+
+
+
 /*   ----- PAGINA  clases   ---- */
 
 .headerClases{
     margin-top: 120px;
    
 }
-
-
 
 
 .claseonline{
@@ -397,6 +388,10 @@ label {
  .claseonline {
     width: 250px;
  }
+
+ .footer a {
+    
+ }
 }
 
  /*  ------ PAGINA formacion   -----*/
@@ -408,6 +403,7 @@ label {
 
  .imagenFormacion1 {
     width: 50px;
+
  }
 
 
