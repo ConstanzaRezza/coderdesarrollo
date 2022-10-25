@@ -137,6 +137,7 @@ align-items: center;
     background-size: cover;
     background-position:center;
     width: 100%;
+    height: 85%;
     padding: 70px;
     margin-top: 100px;
    
@@ -378,10 +379,25 @@ label {
     
 }
 
+.clasepresencial:hover{
+    filter: opacity(0.5);
+}
 
 
+.claseonline:hover{
+    filter: opacity(0.5);
+}
 
+@media  screen and (max-width: 320px)
+{
+    .clasepresencial {
+        width: 250px;
 
+}
+ .claseonline {
+    width: 250px;
+ }
+}
 
  /*  ------ PAGINA formacion   -----*/
 
