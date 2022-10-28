@@ -1,0 +1,60 @@
+.cajaIndex {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.759);
+  width: 500px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  box-sizing: border-box;
+  padding: 70px 70px 70px 70px;
+  box-sizing: content-box;
+  animation-name: aparecer;
+  animation-duration: 2s; }
+
+.mainText {
+  color: #343452; }
+
+.headerIndex {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/yogamanosback.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 85%;
+  padding: 70px;
+  margin-top: 100px; }
+
+.icono-meditacion {
+  --box-size:100px;
+  width: var(--box-size);
+  height: var(--box-size);
+  padding: 5px; }
+
+.imagenIndex {
+  width: 900px;
+  padding-top: 90px; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%; }
+  100% {
+    opacity: 100%; } }
+
+/* ---- MEDIA QUERY  -----  */
+@media screen and (max-width: 320px) {
+  .imagenIndex {
+    align-items: center;
+    width: fit-content;
+    padding-top: 20px;
+    margin: 0%; }
+  .cajaIndex {
+    padding: 10px;
+    width: 320px;
+    margin: 0%;
+    align-items: center; }
+  nav ul li {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px; } }

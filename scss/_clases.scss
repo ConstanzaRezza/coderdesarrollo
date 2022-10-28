@@ -1,0 +1,54 @@
+
+.headerClases{
+    margin-top: 140px;
+   
+}
+
+
+.claseonline{
+    width: 350px;
+    background-color: white;
+    align-items: center;
+    
+}
+
+
+.clasepresencial {
+    width: 350px;
+    background-color: white;
+    align-items: center;
+    
+}
+
+.clasepresencial:hover{
+    filter: opacity(0.5);
+}
+
+
+.claseonline:hover{
+    filter: opacity(0.5);
+}
+
+
+/* ----- MEDIA QUERY -----  */
+
+
+@media  screen and (max-width: 320px)
+
+{
+    .clasepresencial {
+        width: 250px;
+
+     } 
+
+     .claseonline {
+        width: 250px;
+        
+     }
+
+
+footer{
+    padding-left: 15px;
+}
+}
+
