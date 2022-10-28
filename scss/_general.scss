@@ -1,0 +1,119 @@
+
+
+/*  ----- BODY  ------*/
+
+
+
+body {
+
+    background-color:white;
+    width: 100%;
+    margin:0% ;
+    
+
+}
+
+
+
+/*  ------ NAV  ------ */
+
+nav ul li {
+   
+    display: inline-block;
+    border: 20px;
+    padding: 20px;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+
+    
+}
+    nav ul li a {
+    text-decoration:wavy;
+    padding-top: 30px;
+    color:rgb(78, 78, 150) ;
+    
+    
+}
+a {
+    color: inherit;
+}
+
+.navbar-brand > img {
+    border-radius: 70%;
+    width: 85px;
+}
+
+
+.viveka {
+    color: rgb(78, 78, 150);
+    align-items: center;
+}
+
+
+
+
+.navbar-brand > img {
+    border-radius: 70%;
+    width: 85px;
+}
+
+
+.viveka {
+    color: rgb(78, 78, 150);
+    align-items: center;
+}
+
+
+
+
+/*  ----- MAIN  ------ */
+
+main  {
+   
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+
+ }
+
+
+
+ /* -----  FOOTER  ----- */
+
+
+ 
+footer {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-right: 30px;
+    color: inherit;
+    
+    
+
+  
+}
+
+.iconos img {
+     --size:45px;
+     width: var(--size);
+     height:var(--size);
+     border-radius: 50%;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+
+
+}
+.iconos img:hover{
+     filter: opacity(0.5);
+}
+
+
+
+
+

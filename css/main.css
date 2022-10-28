@@ -58,3 +58,209 @@
     display: flex;
     flex-direction: row;
     font-size: 10px; } }
+
+.headerClases {
+  margin-top: 140px; }
+
+.claseonline {
+  width: 350px;
+  background-color: white;
+  align-items: center; }
+
+.clasepresencial {
+  width: 350px;
+  background-color: white;
+  align-items: center; }
+
+.clasepresencial:hover {
+  filter: opacity(0.5); }
+
+.claseonline:hover {
+  filter: opacity(0.5); }
+
+/* ----- MEDIA QUERY -----  */
+@media screen and (max-width: 320px) {
+  .clasepresencial {
+    width: 250px; }
+  .claseonline {
+    width: 250px; }
+  footer {
+    padding-left: 15px; } }
+
+.cajaProfesores {
+  display: flex;
+  flex-direction: column;
+  padding: 280px;
+  padding-top: 50px;
+  margin-top: 250px; }
+
+.nombreProfes {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 50px;
+  align-content: center;
+  color: #433972; }
+
+.parrafoProfes {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-size: 25px;
+  align-content: space-around;
+  color: #3c3572;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #5a5f9a; }
+
+.cajitaProfes {
+  display: flex;
+  flex-direction: column; }
+
+.profe1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.699);
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.profe1 img {
+  width: 360px;
+  padding: 20px; }
+
+.profe2 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.699);
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.profe2 img {
+  width: 500px;
+  padding: 20px; }
+
+.profe3 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.699);
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.profe3 img {
+  width: 490px;
+  padding: 20px; }
+
+.mainFormacion {
+  display: flex;
+  flex-direction: column; }
+
+.imagenFormacion1 {
+  width: 50px; }
+
+.mainLibros {
+  display: flex;
+  flex-direction: column; }
+
+form {
+  background-color: rgba(228, 216, 216, 0.534);
+  width: 400px;
+  border-radius: 3px;
+  padding: 20px 40px;
+  margin: auto;
+  margin-top: 160px; }
+
+legend {
+  color: white;
+  text-align: left;
+  font-size: 30px; }
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none; }
+
+textarea {
+  height: 150px; }
+
+#boton {
+  background: #3f3f4b;
+  color: white;
+  padding: 20px; }
+
+#boton:hover {
+  cursor: pointer; }
+
+label {
+  display: inline; }
+
+/*  ----- BODY  ------*/
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0%; }
+
+/*  ------ NAV  ------ */
+nav ul li {
+  display: inline-block;
+  border: 20px;
+  padding: 20px;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none; }
+
+nav ul li a {
+  text-decoration: wavy;
+  padding-top: 30px;
+  color: #4e4e96; }
+
+a {
+  color: inherit; }
+
+.navbar-brand > img {
+  border-radius: 70%;
+  width: 85px; }
+
+.viveka {
+  color: #4e4e96;
+  align-items: center; }
+
+.navbar-brand > img {
+  border-radius: 70%;
+  width: 85px; }
+
+.viveka {
+  color: #4e4e96;
+  align-items: center; }
+
+/*  ----- MAIN  ------ */
+main {
+  display: flex;
+  flex-direction: row;
+  align-content: center; }
+
+/* -----  FOOTER  ----- */
+footer {
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 30px;
+  color: inherit; }
+
+.iconos img {
+  --size:45px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.iconos img:hover {
+  filter: opacity(0.5); }

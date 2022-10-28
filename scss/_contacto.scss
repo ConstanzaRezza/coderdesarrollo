@@ -1,0 +1,53 @@
+form {
+    background-color: rgba(228, 216, 216, 0.534) ;
+    width: 400px;
+    border-radius: 3px;
+    padding: 20px 40px;
+    margin: auto;
+    margin-top: 160px;
+
+}
+
+
+legend {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+
+input, textarea {
+    display: block;
+    width:100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+#boton {
+    background: rgb(63, 63, 75);
+    color: white;
+    padding: 20px;
+
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+
+
+label {
+    display: inline;
+}
+
+
+ 
