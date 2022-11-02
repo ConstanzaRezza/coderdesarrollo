@@ -165,7 +165,23 @@
   margin-top: 140px; }
 
 .libro1 {
-  width: 100px; }
+  width: 150px; }
+
+.libro2 {
+  width: 180px; }
+
+.libro3 {
+  width: 200px; }
+
+.libro4 {
+  width: 250px; }
+
+.libro {
+  width: 500px;
+  padding: 50px; }
+
+.libro:hover {
+  width: 60%; }
 
 form {
   background-color: rgba(228, 216, 216, 0.534);
