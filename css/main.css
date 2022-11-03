@@ -1,24 +1,9 @@
-.cajaIndex {
-  display: flex;
-  flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.759);
-  width: 500px;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 90px;
-  box-sizing: border-box;
-  padding: 70px 70px 70px 70px;
-  box-sizing: content-box;
-  animation-name: aparecer;
-  animation-duration: 2s; }
-
 .mainText {
   color: #343452; }
 
 .headerIndex {
   display: flex;
   flex-direction: row;
-  background-image: url(../imagenes/yogamanosback.jpg);
   background-size: cover;
   background-position: center;
   height: 85%;
@@ -30,9 +15,9 @@
   height: var(--box-size);
   padding: 5px; }
 
-.imagenIndex {
-  width: 900px;
-  padding-top: 90px; }
+.videoindex {
+  animation-name: aparecer;
+  animation-duration: 2s; }
 
 @keyframes aparecer {
   0% {
@@ -58,7 +43,8 @@
     font-size: 10px; } }
 
 .headerClases {
-  margin: 0%; }
+  margin: 0%;
+  padding-top: 150pxx; }
 
 .claseonline {
   width: 350px;

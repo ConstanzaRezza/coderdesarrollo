@@ -1,21 +1,4 @@
 
-.cajaIndex {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(255, 255, 255, 0.759);
-    width: 500px;
-    text-align: center;
-    margin-top: 100px;
-    
-    margin-bottom: 90px;
-    box-sizing: border-box;
-    padding: 70px 70px 70px 70px;
-    box-sizing: content-box;
-    animation-name: aparecer;
-    animation-duration: 2s;
-   
-}
-
 
 
 
@@ -29,7 +12,7 @@
 .headerIndex  {
     display: flex;
     flex-direction: row;
-    background-image: url(../imagenes/yogamanosback.jpg);
+  
     background-size: cover;
     background-position:center;
     
@@ -51,12 +34,12 @@
 }
 
 
-
-
-.imagenIndex {
-    width: 900px;
-    padding-top: 90px;
+.videoindex{
+    animation-name: aparecer;
+    animation-duration: 2s;
+   
 }
+
 
 
 @keyframes aparecer {
@@ -64,6 +47,7 @@
     
     100% {opacity: 100%;}
 }
+
 
 
 /* ---- MEDIA QUERY  -----  */
