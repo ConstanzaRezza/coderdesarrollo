@@ -1,5 +1,5 @@
 .cursos {
-   padding-top: 200px;
+   margin-top: 250px;
     align-content: space-around;
     padding-left: 70px;
 }
@@ -51,4 +51,10 @@
    opacity: 0;
    animation-name: fadeInUp;
    -webkit-animation-name: fadeInUp;
+}
+@media screen and (max-width: 375px)
+{
+ .profesorado{
+   width: 300px;
+ }
 }

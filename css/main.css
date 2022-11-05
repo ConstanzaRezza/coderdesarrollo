@@ -6,7 +6,8 @@
   flex-direction: row;
   background-size: cover;
   background-position: center;
-  height: 85%; }
+  height: 85%;
+  margin-top: 150px; }
 
 .icono-meditacion {
   --box-size:100px;
@@ -27,13 +28,11 @@
 /* ---- MEDIA QUERY  -----  */
 @media screen and (max-width: 375px) {
   .headerIndex {
-    margin-top: 150px; }
+    margin-top: 200px; }
   nav ul li {
     display: flex;
     flex-direction: row;
-    font-size: 10px; }
-  .video {
-    height: 90%; } }
+    font-size: 10px; } }
 
 .headerClases {
   margin: 0%;
@@ -89,7 +88,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin-top: 200px; }
+  margin-top: 250px; }
 
 .profes {
   width: 500px; }
@@ -100,7 +99,7 @@
     margin-left: 14px; } }
 
 .cursos {
-  padding-top: 200px;
+  margin-top: 250px;
   align-content: space-around;
   padding-left: 70px; }
 
@@ -139,6 +138,10 @@
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp; }
 
+@media screen and (max-width: 375px) {
+  .profesorado {
+    width: 300px; } }
+
 .mainLibros {
   display: flex;
   flex-direction: column;
@@ -167,6 +170,10 @@
 
 .libro {
   overflow: hidden; }
+
+@media screen and (max-width: 375px) {
+  .libro {
+    width: 300px; } }
 
 form {
   background-color: rgba(228, 216, 216, 0.534);
