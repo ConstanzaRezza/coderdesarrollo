@@ -2,11 +2,23 @@
 .mainProfes{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    margin-top: 200px;
    
 
 }
 
 .profes{
     width: 500px;
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .profes{
+    width: 400px;
+    margin-left: 14px;
+    
+}
+
 }

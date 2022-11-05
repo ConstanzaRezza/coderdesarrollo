@@ -1,7 +1,7 @@
 
 .headerClases{
     margin: 0%;
-    padding-top: 150pxx;
+    padding-top: 150px;
 }
 
 
@@ -29,6 +29,35 @@
 .claseonline:hover{
     filter: opacity(0.5);
 }
+
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+ 
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+ }
+ 
+ .animated {
+    animation-duration: 3s;
+    animation-fill-mode:both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+ }
+ 
+ .animatedFadeInUp {
+    opacity: 0
+ }
+ 
+ .fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+ }
 
 
 /* ----- MEDIA QUERY -----  */

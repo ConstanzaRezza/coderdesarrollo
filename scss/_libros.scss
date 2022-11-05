@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 250px;
    
 
  }
@@ -34,6 +35,5 @@
 
    
 }
-.libro:hover{
-   width: 60%;
-}
+.libro:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.libro {overflow:hidden;}
