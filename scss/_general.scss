@@ -119,4 +119,9 @@ footer {
 
 }
 
+@media screen and (max-width: 376px) {
+    .navbar-brand > img {
+        width: 70px;
+}
 
+}
