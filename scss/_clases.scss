@@ -1,12 +1,18 @@
 
 .headerClases{
     margin: 0%;
-    padding-top: 150px;
+    padding-top: 200px;
+    margin-bottom: 100px;
 }
 
-
+.presencial {
+    margin-top: 80px;
+}
+.online {
+    margin-top: 80px;
+}
 .claseonline{
-    width: 350px;
+    width: 320px;
     background-color: white;
     align-items: center;
     
@@ -15,10 +21,10 @@
 
 
 .clasepresencial {
-    width: 350px;
+    width: 310px;
     background-color: white;
     align-items: center;
-    
+   
 }
 
 .clasepresencial:hover{
@@ -31,7 +37,7 @@
 }
 
 
-@-webkit-keyframes fadeInUp {
+ebkit-keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)
     }
@@ -76,9 +82,12 @@
         
      }
 
-
-footer{
+     .headerClases {  
+     margin-left:30px ;
+                    
+    }
+     footer{
     padding-left: 15px;
-}
+    }
 }
 

@@ -36,15 +36,22 @@
 
 .headerClases {
   margin: 0%;
-  padding-top: 150px; }
+  padding-top: 200px;
+  margin-bottom: 100px; }
+
+.presencial {
+  margin-top: 80px; }
+
+.online {
+  margin-top: 80px; }
 
 .claseonline {
-  width: 350px;
+  width: 320px;
   background-color: white;
   align-items: center; }
 
 .clasepresencial {
-  width: 350px;
+  width: 310px;
   background-color: white;
   align-items: center; }
 
@@ -54,12 +61,12 @@
 .claseonline:hover {
   filter: opacity(0.5); }
 
-@-webkit-keyframes fadeInUp {
-  from {
-    transform: translate3d(0, 40px, 0); }
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1; } }
+ebkit-keyframes fadeInUp from {
+  transform: translate3d(0, 40px, 0); }
+
+ebkit-keyframes fadeInUp to {
+  transform: translate3d(0, 0, 0);
+  opacity: 1; }
 
 .animated {
   animation-duration: 3s;
@@ -81,6 +88,8 @@
     width: 250px; }
   .claseonline {
     width: 250px; }
+  .headerClases {
+    margin-left: 30px; }
   footer {
     padding-left: 15px; } }
 
@@ -88,23 +97,27 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin-top: 250px; }
+  margin-top: 200px;
+  margin-bottom: 100px; }
 
 .profes {
-  width: 500px; }
+  width: 390px;
+  margin-top: 100px; }
 
 @media screen and (max-width: 320px) {
   .profes {
-    width: 400px;
+    width: 350px;
     margin-left: 14px; } }
 
 .cursos {
-  margin-top: 250px;
+  margin-top: 200px;
   align-content: space-around;
-  padding-left: 70px; }
+  margin-bottom: 80px; }
 
 .profesorado {
-  padding: 70px; }
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 100px; }
 
 .profesorado:hover {
   cursor: pointer;
@@ -161,8 +174,9 @@
   width: 250px; }
 
 .libro {
-  width: 500px;
-  padding: 50px; }
+  width: 400px;
+  padding: 80px;
+  margin-bottom: 30px; }
 
 .libro:hover {
   -webkit-transform: scale(1.3);
@@ -270,6 +284,10 @@ footer {
 
 .iconos img:hover {
   filter: opacity(0.5); }
+
+/* TITULOS*/
+H1 {
+  color: #ba6520; }
 
 /*   BANNER   */
 .banner {

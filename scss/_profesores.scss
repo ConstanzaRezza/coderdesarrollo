@@ -3,20 +3,21 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-top: 250px;
-   
+    margin-top: 200px;
+    margin-bottom: 100px;
 
 }
 
 .profes{
-    width: 500px;
+    width:390px;
+    margin-top: 100px;
     
 }
 
 @media screen and (max-width: 320px) {
 
     .profes{
-    width: 400px;
+    width: 350px;
     margin-left: 14px;
     
 }
