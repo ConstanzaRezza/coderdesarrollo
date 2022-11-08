@@ -5,15 +5,22 @@
     margin-bottom: 100px;
 }
 
+$margenimagenes: 80px;
+
 .presencial {
-    margin-top: 80px;
+    margin-top: $margenimagenes;
 }
+
+
+
 .online {
-    margin-top: 80px;
+    margin-top: $margenimagenes;
 }
+
+
+
 .claseonline{
     width: 320px;
-    background-color: white;
     align-items: center;
     
     
@@ -21,9 +28,8 @@
 
 
 .clasepresencial {
+    @extend .claseonline;
     width: 310px;
-    background-color: white;
-    align-items: center;
    
 }
 

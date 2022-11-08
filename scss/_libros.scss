@@ -8,24 +8,27 @@
 
  }
 
+ $ancho: 150px;
+
+ 
 .libro1 {
-   width: 150px;
+   width: $ancho;
    
 }
 
 
 .libro2 {
-   width: 180px;
+   width: $ancho + 30;
 }
 
 
 .libro3{
-   width: 200px;
+   width: $ancho + 50;
 
 }
 
 .libro4{
-   width: 250px;
+   width: $ancho + 100;
    
 }
 
