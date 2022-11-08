@@ -45,20 +45,17 @@
 .online {
   margin-top: 80px; }
 
-.claseonline {
+.claseonline, .clasepresencial {
   width: 320px;
-  background-color: white;
   align-items: center; }
 
 .clasepresencial {
-  width: 310px;
-  background-color: white;
-  align-items: center; }
+  width: 310px; }
 
 .clasepresencial:hover {
   filter: opacity(0.5); }
 
-.claseonline:hover {
+.claseonline:hover, .clasepresencial:hover {
   filter: opacity(0.5); }
 
 ebkit-keyframes fadeInUp from {
@@ -86,7 +83,7 @@ ebkit-keyframes fadeInUp to {
 @media screen and (max-width: 320px) {
   .clasepresencial {
     width: 250px; }
-  .claseonline {
+  .claseonline, .clasepresencial {
     width: 250px; }
   .headerClases {
     margin-left: 30px; }
@@ -241,12 +238,10 @@ nav ul li {
   font-size: 25px;
   cursor: pointer;
   text-decoration: none; }
-
-nav ul li a {
-  text-decoration: wavy;
-  padding-top: 30px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  list-style: none; }
+  nav ul li a {
+    padding-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none; }
 
 .navbar-brand > img {
   border-radius: 70%;
@@ -258,12 +253,6 @@ nav ul li a {
 .viveka {
   color: #4e4e96;
   align-items: center; }
-
-/*  ----- MAIN  ------ */
-main {
-  display: flex;
-  flex-direction: row;
-  align-content: center; }
 
 /* -----  FOOTER  ----- */
 footer {
@@ -294,6 +283,12 @@ H1 {
   margin-top: 50px;
   height: 60%; }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 768px) {
   .navbar-brand > img {
-    width: 70px; } }
+    width: 70px; }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0; } }
