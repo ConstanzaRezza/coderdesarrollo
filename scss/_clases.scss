@@ -3,6 +3,8 @@
     margin: 0%;
     padding-top: 200px;
     margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 $margenimagenes: 80px;
@@ -75,19 +77,26 @@ ebkit-keyframes fadeInUp {
 /* ----- MEDIA QUERY -----  */
 
 
-@media  screen and (max-width: 320px)
+@media  screen and (max-width: 768px)
 
 {
     .clasepresencial {
-        width: 250px;
+        width: 200px;
 
      } 
 
      .claseonline {
-        width: 250px;
+        width: 170px;
         
      }
-
+     
+    .presencial {
+        text-align: center;
+    }
+    
+    .online{
+        text-align: center;
+    }
      .headerClases {  
      margin-left:30px ;
                     
