@@ -41,10 +41,13 @@
 
 .headerClases {
   margin: 0%;
-  padding-top: 200px;
+  padding-top: 150px;
   margin-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px; }
+
+.clases {
+  padding: 5px; }
 
 .presencial {
   margin-top: 80px; }
@@ -108,10 +111,13 @@ ebkit-keyframes fadeInUp to {
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin-top: 200px;
+  margin-top: 150px;
   margin-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px; }
+
+.profesores {
+  padding: 5px; }
 
 .profes {
   width: 390px;
@@ -123,11 +129,14 @@ ebkit-keyframes fadeInUp to {
     margin: 14px; } }
 
 .cursos {
-  margin-top: 200px;
+  margin-top: 150px;
   align-content: space-around;
   margin-bottom: 80px;
   padding-left: 20px;
   padding-right: 20px; }
+
+.formacion {
+  padding: 5px; }
 
 .profesorado {
   padding-left: 70px;
@@ -174,7 +183,10 @@ ebkit-keyframes fadeInUp to {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px; }
+  margin-top: 200px; }
+
+.lecturas {
+  padding: 10px; }
 
 .libro1 {
   width: 150px; }
