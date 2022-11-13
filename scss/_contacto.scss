@@ -1,15 +1,16 @@
 form {
-    background-color: rgba(228, 216, 216, 0.534) ;
-    width: 400px;
+    background-color:rgba(197, 197, 197, 0.362);
+    width: 600px;
     border-radius: 3px;
     padding: 20px 40px;
-   margin: auto;
-  margin-top: 200px;
+    margin: auto;
+    margin-top: 150px;
+
 }
 
 
 legend {
-    color: white;
+    color: black;
     text-align: left;
     font-size: 30px;
     
@@ -24,7 +25,7 @@ input, textarea {
     padding: 10px;
     box-sizing: border-box;
     font-size: 17px;
-    border: none;
+    border:black;
 }
 
 textarea {

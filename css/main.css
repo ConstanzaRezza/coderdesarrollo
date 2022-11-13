@@ -11,7 +11,7 @@
   background-position: center;
   height: 100%;
   width: 100%;
-  margin-top: 150px; }
+  margin-top: 90px; }
 
 .icono-meditacion {
   --box-size:100px;
@@ -214,15 +214,15 @@ ebkit-keyframes fadeInUp to {
     width: 300px; } }
 
 form {
-  background-color: rgba(228, 216, 216, 0.534);
-  width: 400px;
+  background-color: rgba(197, 197, 197, 0.362);
+  width: 600px;
   border-radius: 3px;
   padding: 20px 40px;
   margin: auto;
-  margin-top: 200px; }
+  margin-top: 150px; }
 
 legend {
-  color: white;
+  color: black;
   text-align: left;
   font-size: 30px; }
 
@@ -233,7 +233,7 @@ input, textarea {
   padding: 10px;
   box-sizing: border-box;
   font-size: 17px;
-  border: none; }
+  border: black; }
 
 textarea {
   height: 150px; }
@@ -259,7 +259,6 @@ nav ul li {
   display: inline-block;
   border: 15px;
   padding: 15px;
-  text-align: right;
   font-family: sans-serif;
   font-size: 20px;
   cursor: pointer;
@@ -311,7 +310,7 @@ H1 {
 
 @media screen and (max-width: 768px) {
   .navbar-brand > img {
-    width: 70px; }
+    width: 50px; }
   nav ul {
     display: flex;
     flex-direction: column;
