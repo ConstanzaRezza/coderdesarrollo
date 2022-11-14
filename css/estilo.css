@@ -1,435 +1,388 @@
-
-
-/*  ----   BODY   ----*/
-/*
-body {
-
-    background-color:white;
-    width: 100%;
-    margin:0% ;
-    
-
+.sectionindex {
+  padding: 0%;
 }
-*/
-/*   ----- NAV -----*/
-/*
-nav ul li {
-   
-    display: inline-block;
-    border: 20px;
-    padding: 20px;
-    text-align: right;
-    font-family: sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    text-decoration: none;
-
-    
-}
-    nav ul li a {
-    text-decoration:wavy;
-    padding-top: 30px;
-    color:rgb(78, 78, 150) ;
-    
-    
-}
-a {
-    color: inherit;
-}
-
-.navbar-brand > img {
-    border-radius: 70%;
-    width: 85px;
-}
-
-
-.viveka {
-    color: rgb(78, 78, 150);
-    align-items: center;
-}
-
-
-*/
-
-/* ----  MAIN  ----*/
-/*
-main  {
-   
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    
-
- }
-
-*/
-
-
- /*  ----- FOOTER   ----*/
-
-
-footer {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    padding-top: 10px;
-    padding-right: 30px;
-    color: inherit;
-    
-    
-
-  
-}
-
-.iconos img {
-     --size:45px;
-     width: var(--size);
-     height:var(--size);
-     border-radius: 50%;
-     display: inline-flex;
-     justify-content: center;
-     align-items: center;
-
-
-}
-.iconos img:hover{
-     filter: opacity(0.5);
-}
-
-
-
-
-
-
-/* --------  PAGINA Index  -------*/
-
-/*
-
-.cajaIndex {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(255, 255, 255, 0.759);
-    width: 500px;
-    text-align: center;
-    margin-top: 100px;
-    
-    margin-bottom: 90px;
-    box-sizing: border-box;
-    padding: 70px 70px 70px 70px;
-    box-sizing: content-box;
-    animation-name: aparecer;
-    animation-duration: 2s;
-   
-}
-
-
-
 
 .mainText {
-    color: rgb(52, 52, 82);
-
-    
+  color: rgb(52, 52, 82);
 }
 
-
-.headerIndex  {
-    display: flex;
-    flex-direction: row;
-    background-image: url(../imagenes/yogamanosback.jpg);
-    background-size: cover;
-    background-position:center;
-    width: 100%;
-    height: 85%;
-    padding: 70px;
-    margin-top: 100px;
-   
-
-
+.headerIndex {
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 150px;
 }
 
-.icono-meditacion{
-    --box-size:100px;
-    width: var(--box-size);
-    height: var(--box-size);
-    padding: 5px;
+.icono-meditacion {
+  --box-size:100px;
+  width: var(--box-size);
+  height: var(--box-size);
+  padding: 5px;
 }
 
-
-
-
-.imagenIndex {
-    width: 900px;
-    padding-top: 90px;
+.videoindex {
+  animation-name: aparecer;
+  animation-duration: 2s;
+  padding-left: 25px;
 }
 
 @keyframes aparecer {
-    0% {
-        opacity: 0%;
-    }
-    
-    100% {opacity: 100%;}
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
-
-*/
-/* tamaño mobile*/
-/*
-
-@media  screen and (max-width: 320px)
- { 
-    .imagenIndex {
-    align-items: center;
-    width: fit-content;
-    padding-top: 20px;
-    margin: 0%;
-
-
- } 
- 
-
- .cajaIndex {
-    padding: 10px;
-    width: 320px;
-    margin:0%;
-    align-items: center;
- }
-
-nav ul li {
-   display: flex;
-   flex-direction: row;
+/* ---- MEDIA QUERY  -----  */
+@media screen and (max-width: 375px) {
+  .headerIndex {
+    margin-top: 200px;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: row;
     font-size: 10px;
-
- }
+  }
+}
+.headerClases {
+  margin: 0%;
+  padding-top: 200px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-*/
-/* ------- PAGINA profesores  --------*/
-
-/*
-.cajaProfesores {
-    display: flex;
-    flex-direction:column;
-    padding: 280px;
-    padding-top: 50px;
-    margin-top: 250px;
-    
-
+.presencial {
+  margin-top: 80px;
 }
- 
 
+.online {
+  margin-top: 80px;
+}
 
-.nombreProfes {
-    
-    font-family:sans-serif;
+.claseonline, .clasepresencial {
+  width: 320px;
+  align-items: center;
+}
+
+.clasepresencial {
+  width: 310px;
+}
+
+.clasepresencial:hover {
+  filter: opacity(0.5);
+}
+
+.claseonline:hover, .clasepresencial:hover {
+  filter: opacity(0.5);
+}
+
+ebkit-keyframes fadeInUp from {
+  transform: translate3d(0, 40px, 0);
+}
+ebkit-keyframes fadeInUp to {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+/* ----- MEDIA QUERY -----  */
+@media screen and (max-width: 768px) {
+  .clasepresencial {
+    width: 200px;
+  }
+  .claseonline, .clasepresencial {
+    width: 170px;
+  }
+  .presencial {
     text-align: center;
-    font-size: 50px;
-  align-content: center;
-  color:rgb(67, 57, 114);
-
-
-
-   
-    
-}
-
-.parrafoProfes {
+  }
+  .online {
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    font-family: sans-serif;
-    font-size: 25px;
-    align-content: space-around;
-    color: rgb(60, 53, 114);
-    padding-left: 20px;
-    padding-right: 20px;
-    color:rgb(90, 95, 154);
- 
-
+  }
+  .headerClases {
+    margin-left: 30px;
+  }
+  footer {
+    padding-left: 15px;
+  }
+}
+.bodyprofes {
+  margin: 0px;
 }
 
-
-.cajitaProfes {
-    display: flex;
-    flex-direction:column;
-    
-    
-}
-.profe1 {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.699);
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    
-    
+.mainProfes {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.profe1 img {
-    width: 360px;
-    padding: 20px;
-
+.profes {
+  width: 390px;
+  margin-top: 100px;
 }
 
- .profe2 {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(255, 255, 255, 0.699);
-    padding-top: 10px;
-    padding-bottom: 10px;
- }
-
- .profe2 img{
-    width: 500px;
-    padding: 20px;
- }
-
-.profe3 {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(255, 255, 255, 0.699);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+@media screen and (max-width: 320px) {
+  .profes {
+    width: 350px;
+    margin: 14px;
+  }
+}
+.cursos {
+  margin-top: 200px;
+  align-content: space-around;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.profe3 img{
-    width: 490px;
-    padding: 20px;
+.profesorado {
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-top: 100px;
 }
 
+.profesorado:hover {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
 
-*/
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+}
 
+.animatedFadeInUp {
+  opacity: 0;
+}
 
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
 
+@media screen and (max-width: 375px) {
+  .profesorado {
+    width: 300px;
+  }
+}
+.mainLibros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
 
+.libro1 {
+  width: 150px;
+}
 
-/* -------  PAGINA contacto   -----*/
+.libro2 {
+  width: 180px;
+}
 
-/*
+.libro3 {
+  width: 200px;
+}
+
+.libro4 {
+  width: 250px;
+}
+
+.libro {
+  width: 400px;
+  padding: 80px;
+  margin-bottom: 30px;
+}
+
+.libro5 {
+  width: 150px;
+}
+
+.libro:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.libro {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 375px) {
+  .libro {
+    width: 300px;
+  }
+}
 form {
-    background-color: rgba(228, 216, 216, 0.534) ;
-    width: 400px;
-    border-radius: 3px;
-    padding: 20px 40px;
-    margin: auto;
-    margin-top: 160px;
-
+  background-color: rgba(228, 216, 216, 0.534);
+  width: 400px;
+  border-radius: 3px;
+  padding: 20px 40px;
+  margin: auto;
+  margin-top: 200px;
 }
-
 
 legend {
-    color: white;
-    text-align: left;
-    font-size: 30px;
-
+  color: white;
+  text-align: left;
+  font-size: 30px;
 }
 
-
 input, textarea {
-    display: block;
-    width:100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
 }
 
 textarea {
-    height: 150px;
+  height: 150px;
 }
 
-
 #boton {
-    background: rgb(63, 63, 75);
-    color: white;
-    padding: 20px;
-
+  background: rgb(63, 63, 75);
+  color: white;
+  padding: 20px;
 }
 
 #boton:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-
 
 label {
-    display: inline;
+  display: inline;
 }
 
-
- 
-*/
-/*   ----- PAGINA  clases   ---- */
-/*
-.headerClases{
-    margin-top: 140px;
-   
+/*  ----- BODY  ------*/
+body {
+  background-color: white;
+  width: 100%;
 }
 
-
-.claseonline{
-    width: 350px;
-    background-color: white;
-    align-items: center;
-    
+/*  ------ NAV  ------ */
+nav ul li {
+  display: inline-block;
+  border: 15px;
+  padding: 15px;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav ul li a {
+  padding-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
 }
 
-
-.clasepresencial {
-    width: 350px;
-    background-color: white;
-    align-items: center;
-    
+.navbar-brand > img {
+  border-radius: 70%;
+  width: 60px;
 }
 
-.clasepresencial:hover{
-    filter: opacity(0.5);
+.nav-link {
+  color: rgb(85, 85, 167);
 }
 
-
-.claseonline:hover{
-    filter: opacity(0.5);
+.viveka {
+  color: rgb(78, 78, 150);
+  align-items: center;
+  width: 60px;
 }
 
-@media  screen and (max-width: 320px)
-{
-    .clasepresencial {
-        width: 250px;
-
+/* -----  FOOTER  ----- */
+footer {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  color: inherit;
 }
- .claseonline {
-    width: 250px;
- }
 
-footer{
-    padding-left: 15px;
+.iconos img {
+  --size:45px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
-}
-*/
 
- /*  ------ PAGINA formacion   -----*/
-/*
- .mainFormacion {
+.iconos img:hover {
+  filter: opacity(0.5);
+}
+
+/* TITULOS*/
+H1 {
+  color: rgb(186, 101, 32);
+}
+
+/*   BANNER   */
+.banner {
+  margin-top: 50px;
+  height: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand > img {
+    width: 70px;
+  }
+  nav ul {
     display: flex;
     flex-direction: column;
- }
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+}
 
- .imagenFormacion1 {
-    width: 50px;
-
- }
-
-*/
-
- /*  ------   Libros  ------*/
-/*
-
- .mainLibros {
-    display: flex;
-    flex-direction: column;
-
- }
-
- */
+/*# sourceMappingURL=estilo.css.map */
