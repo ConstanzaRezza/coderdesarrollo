@@ -75,15 +75,16 @@ label {
      display: inline-flex;
      justify-content: center;
      align-items: center;
-
+     padding-bottom: 5px;
 }
 .contactoiconos img:hover{
     filter: opacity(0.5);
 }
 
 @media screen and (max-width: 425px)
-     {  .mainContacto{
-        margin-top: 90px;
+     {  
+        .mainContacto{
+        margin-top: 70px;
      }
         form {width: 300px;
             padding: 5px;

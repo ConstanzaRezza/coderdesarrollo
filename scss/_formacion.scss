@@ -9,12 +9,20 @@
 
 .formacion {
     padding: 5px;
+     
+    h1, h4 {
+        font-weight: lighter;
+    }
 }
 
 .profesorado {
     padding-left: 70px;
     padding-right: 70px;
     margin-top: 100px;
+
+    h3 {
+        font-weight: lighter;
+    }
 
 }
 

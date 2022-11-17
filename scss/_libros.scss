@@ -35,7 +35,7 @@
 }
 
 .libro4{
-   width: $ancho + 100;
+   width: $ancho + 70;
    
    
 }
@@ -45,7 +45,10 @@
    padding: 80px;
    margin-bottom: 30px;
    
-
+    p {
+      font-size: larger;
+      padding-top: 5px;
+    }
    
 }
 .libro5{
