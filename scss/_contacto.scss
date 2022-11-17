@@ -1,10 +1,27 @@
-form {
-    background-color:rgba(197, 197, 197, 0.362);
-    width: 600px;
-    border-radius: 3px;
-    padding: 20px 40px;
-    margin: auto;
+.mainContacto{
     margin-top: 150px;
+    
+}
+
+.contacto {
+     
+    padding-top: 20px; 
+    font-weight:lighter;
+    font-size: x-large;
+    margin:0px;
+   
+   
+   
+}
+
+form {
+    background-color:white;
+    width: 100%;
+    border-radius: 3px;
+    padding: 50px 40px;
+    margin:0px;
+   
+   
 
 }
 
@@ -19,13 +36,15 @@ legend {
 
 
 input, textarea {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    
     width:100%;
     margin-bottom: 15px;
     padding: 10px;
-    box-sizing: border-box;
+
     font-size: 17px;
-    border:black;
+    border:1px solid black;
 }
 
 textarea {
@@ -37,6 +56,7 @@ textarea {
     background: rgb(63, 63, 75);
     color: white;
     padding: 20px;
+    align-items: center;
 
 }
 
@@ -49,3 +69,28 @@ textarea {
 label {
     display: inline;
 }
+
+.contactoiconos img {
+     width: 50px;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.contactoiconos img:hover{
+    filter: opacity(0.5);
+}
+
+@media screen and (max-width: 425px)
+     {  .mainContacto{
+        margin-top: 90px;
+     }
+        form {width: 300px;
+            padding: 5px;
+     }
+     
+        .contacto {
+            width: 300px;
+            font-size: 15px;
+        }
+     }

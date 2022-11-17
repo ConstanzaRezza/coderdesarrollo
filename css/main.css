@@ -1,8 +1,10 @@
 .sectionindex {
-  padding: 0%; }
+  padding: 0%;
+}
 
 .mainText {
-  color: #343452; }
+  color: rgb(52, 52, 82);
+}
 
 .headerIndex {
   display: flex;
@@ -11,102 +13,124 @@
   background-position: center;
   height: 100%;
   width: 100%;
-  margin-top: 90px; }
+  margin-top: 90px;
+}
 
 .icono-meditacion {
   --box-size:100px;
   width: var(--box-size);
   height: var(--box-size);
-  padding: 5px; }
+  padding: 5px;
+}
 
 .videoindex {
   animation-name: aparecer;
   animation-duration: 2s;
-  padding-left: 25px; }
+  padding-left: 25px;
+}
 
 @keyframes aparecer {
   0% {
-    opacity: 0%; }
+    opacity: 0%;
+  }
   100% {
-    opacity: 100%; } }
-
+    opacity: 100%;
+  }
+}
 /* ---- MEDIA QUERY  -----  */
 @media screen and (max-width: 375px) {
   .headerIndex {
-    margin-top: 200px; }
+    margin-top: 200px;
+  }
   nav ul li {
     display: flex;
     flex-direction: row;
-    font-size: 10px; } }
-
+    font-size: 10px;
+  }
+}
 .headerClases {
   margin: 0%;
   padding-top: 150px;
   margin-bottom: 100px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+}
 
 .clases {
-  padding: 5px; }
+  padding: 5px;
+}
 
 .presencial {
-  margin-top: 80px; }
+  margin-top: 80px;
+}
 
 .online {
-  margin-top: 80px; }
+  margin-top: 80px;
+}
 
 .claseonline, .clasepresencial {
   width: 320px;
-  align-items: center; }
+  align-items: center;
+}
 
 .clasepresencial {
-  width: 310px; }
+  width: 310px;
+}
 
 .clasepresencial:hover {
-  filter: opacity(0.5); }
+  filter: opacity(0.5);
+}
 
 .claseonline:hover, .clasepresencial:hover {
-  filter: opacity(0.5); }
+  filter: opacity(0.5);
+}
 
 ebkit-keyframes fadeInUp from {
-  transform: translate3d(0, 40px, 0); }
-
+  transform: translate3d(0, 40px, 0);
+}
 ebkit-keyframes fadeInUp to {
   transform: translate3d(0, 0, 0);
-  opacity: 1; }
+  opacity: 1;
+}
 
 .animated {
   animation-duration: 3s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
-  -webkit-animation-fill-mode: both; }
+  -webkit-animation-fill-mode: both;
+}
 
 .animatedFadeInUp {
-  opacity: 0; }
+  opacity: 0;
+}
 
 .fadeInUp {
   opacity: 0;
   animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp; }
+  -webkit-animation-name: fadeInUp;
+}
 
 /* ----- MEDIA QUERY -----  */
 @media screen and (max-width: 768px) {
   .clasepresencial {
-    width: 200px; }
+    width: 200px;
+  }
   .claseonline, .clasepresencial {
-    width: 170px; }
+    width: 170px;
+  }
   .presencial {
-    text-align: center; }
+    text-align: center;
+  }
   .online {
-    text-align: center; }
+    text-align: center;
+  }
   .headerClases {
-    margin-left: 30px; }
+    margin-left: 30px;
+  }
   footer {
-    padding-left: 15px; } }
-
-.bodyprofes {
-  margin: 0px; }
-
+    padding-left: 15px;
+  }
+}
 .mainProfes {
   display: flex;
   flex-direction: column;
@@ -114,178 +138,251 @@ ebkit-keyframes fadeInUp to {
   margin-top: 150px;
   margin-bottom: 100px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+}
 
 .profesores {
-  padding: 5px; }
+  padding: 5px;
+}
 
 .profes {
   width: 390px;
   margin-top: 100px;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 @media screen and (max-width: 320px) {
   .profes {
     width: 350px;
-    margin: 14px; } }
-
+    margin: 14px;
+  }
+}
 .cursos {
   margin-top: 150px;
   align-content: space-around;
   margin-bottom: 80px;
   padding-left: 20px;
-  padding-right: 20px; }
+  padding-right: 20px;
+}
 
 .formacion {
-  padding: 5px; }
+  padding: 5px;
+}
 
 .profesorado {
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: 100px; }
+  margin-top: 100px;
+}
 
 .profesorado:hover {
   cursor: pointer;
-  filter: grayscale(100%); }
+  filter: grayscale(100%);
+}
 
 @keyframes fadeInUp {
   from {
-    transform: translate3d(0, 40px, 0); }
+    transform: translate3d(0, 40px, 0);
+  }
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 @-webkit-keyframes fadeInUp {
   from {
-    transform: translate3d(0, 40px, 0); }
+    transform: translate3d(0, 40px, 0);
+  }
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1; } }
-
+    opacity: 1;
+  }
+}
 .animated {
   animation-duration: 3s;
   animation-fill-mode: both;
   -webkit-animation-duration: 3s;
-  -webkit-animation-fill-mode: both; }
+  -webkit-animation-fill-mode: both;
+}
 
 .animatedFadeInUp {
-  opacity: 0; }
+  opacity: 0;
+}
 
 .fadeInUp {
   opacity: 0;
   animation-name: fadeInUp;
-  -webkit-animation-name: fadeInUp; }
+  -webkit-animation-name: fadeInUp;
+}
 
 @media screen and (max-width: 375px) {
   .profesorado {
-    width: 300px; } }
-
+    width: 300px;
+  }
+}
 .mainLibros {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px; }
+  margin-top: 200px;
+}
 
 .lecturas {
-  padding: 10px; }
+  padding: 10px;
+}
 
 .libro1 {
-  width: 150px; }
+  width: 150px;
+}
 
 .libro2 {
-  width: 180px; }
+  width: 180px;
+}
 
 .libro3 {
-  width: 200px; }
+  width: 200px;
+}
 
 .libro4 {
-  width: 250px; }
+  width: 250px;
+}
 
 .libro {
   width: 400px;
   padding: 80px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 .libro5 {
-  width: 150px; }
+  width: 150px;
+}
 
 @media screen and (max-width: 375px) {
   .libro {
-    width: 300px; } }
+    width: 300px;
+  }
+}
+.mainContacto {
+  margin-top: 150px;
+}
+
+.contacto {
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: x-large;
+  margin: 0px;
+}
 
 form {
-  background-color: rgba(197, 197, 197, 0.362);
-  width: 600px;
+  background-color: white;
+  width: 100%;
   border-radius: 3px;
-  padding: 20px 40px;
-  margin: auto;
-  margin-top: 150px; }
+  padding: 50px 40px;
+  margin: 0px;
+}
 
 legend {
   color: black;
   text-align: left;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 input, textarea {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   margin-bottom: 15px;
   padding: 10px;
-  box-sizing: border-box;
   font-size: 17px;
-  border: black; }
+  border: 1px solid black;
+}
 
 textarea {
-  height: 150px; }
+  height: 150px;
+}
 
 #boton {
-  background: #3f3f4b;
+  background: rgb(63, 63, 75);
   color: white;
-  padding: 20px; }
+  padding: 20px;
+  align-items: center;
+}
 
 #boton:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 label {
-  display: inline; }
+  display: inline;
+}
 
+.contactoiconos img {
+  width: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactoiconos img:hover {
+  filter: opacity(0.5);
+}
+
+@media screen and (max-width: 425px) {
+  .mainContacto {
+    margin-top: 90px;
+  }
+  form {
+    width: 300px;
+    padding: 5px;
+  }
+  .contacto {
+    width: 300px;
+    font-size: 15px;
+  }
+}
 /*  ----- BODY  ------*/
-body {
+.body {
   background-color: white;
-  width: 100%; }
+  width: 100%;
+}
 
 /*  ------ NAV  ------ */
 nav ul li {
   display: inline-block;
   border: 15px;
   padding: 15px;
-  font-family: sans-serif;
   font-size: 20px;
   cursor: pointer;
-  text-decoration: none; }
-  nav ul li a {
-    padding-top: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    list-style: none; }
+  text-decoration: none;
+}
+nav ul li a {
+  padding-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
+}
 
 .navbar-brand > img {
   border-radius: 70%;
-  width: 60px; }
+  width: 60px;
+}
 
 .nav-link {
-  color: #5555a7; }
+  color: rgb(85, 85, 167);
+}
 
 .viveka {
-  color: #4e4e96;
+  color: rgb(78, 78, 150);
   align-items: center;
-  width: 60px; }
+  width: 60px;
+}
 
 /* -----  FOOTER  ----- */
 footer {
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   padding-top: 10px;
-  color: inherit; }
+  color: inherit;
+}
 
 .iconos img {
   --size:45px;
@@ -294,26 +391,35 @@ footer {
   border-radius: 50%;
   display: inline-flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .iconos img:hover {
-  filter: opacity(0.5); }
+  filter: opacity(0.5);
+}
 
 /* TITULOS*/
 H1 {
-  color: #ba6520; }
+  color: rgb(186, 101, 32);
+}
 
 /*   BANNER   */
 .banner {
   margin-top: 50px;
-  height: 60%; }
+  height: 60%;
+}
 
 @media screen and (max-width: 768px) {
   .navbar-brand > img {
-    width: 50px; }
+    width: 50px;
+  }
   nav ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     margin-bottom: 0;
-    padding-left: 0; } }
+    padding-left: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
