@@ -26,7 +26,7 @@
 .videoindex {
   animation-name: aparecer;
   animation-duration: 2s;
-  padding-left: 25px;
+  align-items: center;
 }
 
 @keyframes aparecer {
@@ -38,7 +38,7 @@
   }
 }
 /* ---- MEDIA QUERY  -----  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .headerIndex {
     margin-top: 120px;
   }
@@ -47,20 +47,29 @@
     flex-direction: row;
     font-size: 10px;
   }
+  .sectionindex {
+    width: 310px;
+  }
+  .videoindex {
+    width: 320px;
+    padding: 0px;
+  }
+  .icono-meditacion {
+    width: 80px;
+  }
 }
-.headerClases {
-  margin: 0%;
-  padding-top: 150px;
-  margin-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+.clases img {
+  width: 100%;
+  margin-top: 120px;
+  height: 400px;
 }
 
-.clases {
-  padding: 5px;
-}
-.clases h1, .clases h4 {
-  font-weight: lighter;
+.textoclase {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
 }
 
 .presencial {
@@ -130,34 +139,58 @@ ebkit-keyframes fadeInUp to {
   footer {
     padding-left: 15px;
   }
+  .clases img {
+    height: 150px;
+    width: 100%;
+  }
+  .textoclase {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 .mainProfes {
   display: flex;
   flex-direction: column;
-  align-items: left;
-  margin-top: 150px;
+  margin-top: 121px;
   margin-bottom: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
 }
 
-.profesores {
-  padding: 5px;
+.profesores img {
+  width: 100%;
+  height: 400px;
 }
-.profesores h1, .profesores h4 {
-  font-weight: lighter;
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.tituloprofesores {
+  margin-top: 15px;
 }
 
 .profes {
   width: 390px;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .profes {
-    width: 350px;
+    width: 300px;
     margin: 14px;
+  }
+  .profesores img {
+    height: 150px;
+    width: 100%;
   }
 }
 .cursos {
@@ -168,11 +201,8 @@ ebkit-keyframes fadeInUp to {
   padding-right: 20px;
 }
 
-.formacion {
-  padding: 5px;
-}
-.formacion h1, .formacion h4 {
-  font-weight: lighter;
+.formacion img {
+  margin-top: 120px;
 }
 
 .profesorado {
@@ -236,6 +266,10 @@ ebkit-keyframes fadeInUp to {
   margin-top: 200px;
 }
 
+.h1libros {
+  text-decoration: none;
+}
+
 .lecturas {
   padding: 10px;
 }
@@ -293,6 +327,11 @@ ebkit-keyframes fadeInUp to {
 }
 .mainContacto {
   margin-top: 150px;
+}
+
+.h1contacto {
+  text-decoration: none;
+  text-align: left;
 }
 
 .contacto {
@@ -429,13 +468,16 @@ footer {
 }
 
 /* TITULOS*/
-H1 {
+h1 {
   color: rgb(186, 101, 32);
+  padding-top: 50px;
+  text-align: center;
+  text-decoration: overline;
 }
 
 /*   BANNER   */
 .banner {
-  margin-top: 50px;
+  margin-top: 250px;
   height: 60%;
 }
 

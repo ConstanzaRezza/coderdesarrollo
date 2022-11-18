@@ -92,8 +92,15 @@ footer {
 
 /* TITULOS*/
 
-H1 {
+h1 {
     color: rgb(186, 101, 32);
+    
+    padding-top: 50px;
+    text-align: center;
+    text-decoration:overline;
+    
+ 
+ 
 }
 
 
@@ -101,7 +108,7 @@ H1 {
 /*   BANNER   */
 
 .banner {
-    margin-top: 50px;
+    margin-top: 250px;
     height: 60%;
     
     
