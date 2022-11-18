@@ -42,15 +42,21 @@
 
 .libro  {
    width: 400px;
-   padding: 80px;
+   padding: 30px;
    margin-bottom: 30px;
    
     p {
       font-size: larger;
       padding-top: 5px;
     }
-   
-}
+    
+    h3 {
+      font-size: 20px;
+      }
+      h5{
+         font-size: 20px;
+      }
+   }
 .libro5{
    width: 150px;
 }
@@ -58,11 +64,22 @@
  
 
 @media screen and (max-width: 375px) {
+   .mainLibros {
+      margin-top:110px ;
+   }
    .libro {
       width: 300px;
+      padding: 20px;
+           p{
+            font-size: medium;
+           }
+
+      }
      
       
-   }
   
-  
+  .libro1 {
+   width: 100px;
+
+  }
 }
