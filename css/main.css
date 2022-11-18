@@ -194,7 +194,6 @@ h1 {
   }
 }
 .cursos {
-  margin-top: 150px;
   align-content: space-around;
   margin-bottom: 80px;
   padding-left: 20px;
@@ -202,13 +201,15 @@ h1 {
 }
 
 .formacion img {
+  width: 100%;
   margin-top: 120px;
+  height: 400px;
 }
 
 .profesorado {
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .profesorado h3 {
   font-weight: lighter;
@@ -254,9 +255,16 @@ h1 {
   -webkit-animation-name: fadeInUp;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 900px) {
   .profesorado {
     width: 300px;
+  }
+  .cursos {
+    align-content: space-between;
+  }
+  .formacion img {
+    height: 150px;
+    width: 100%;
   }
 }
 .mainLibros {
