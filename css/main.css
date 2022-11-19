@@ -185,7 +185,9 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .profes {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
     margin: 14px;
   }
   .profesores img {
@@ -257,10 +259,8 @@ h1 {
 
 @media screen and (max-width: 900px) {
   .profesorado {
-    width: 300px;
-  }
-  .cursos {
-    align-content: space-between;
+    width: 370px;
+    align-content: center;
   }
   .formacion img {
     height: 150px;

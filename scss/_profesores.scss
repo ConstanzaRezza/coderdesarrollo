@@ -49,7 +49,9 @@
 @media screen and (max-width: 768px) {
 
     .profes{
-    width: 300px;
+        display: flex;
+        flex-direction: column;
+    width: 370px;
     margin: 14px;
 
     
