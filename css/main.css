@@ -51,8 +51,8 @@
     width: 310px;
   }
   .videoindex {
-    width: 320px;
-    padding: 0px;
+    width: 400px;
+    padding: 0%;
   }
   .icono-meditacion {
     width: 80px;
@@ -154,7 +154,7 @@ ebkit-keyframes fadeInUp to {
   display: flex;
   flex-direction: column;
   margin-top: 121px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin-left: 0%;
   margin-right: 0%;
   padding: 0%;
@@ -211,7 +211,7 @@ h1 {
 .profesorado {
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .profesorado h3 {
   font-weight: lighter;
