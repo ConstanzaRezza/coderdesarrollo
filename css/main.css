@@ -284,18 +284,26 @@ h1 {
 
 .libro1 {
   width: 150px;
+  animation-name: aparecer;
+  animation-duration: 3s;
 }
 
 .libro2 {
   width: 180px;
+  animation-name: aparecer;
+  animation-duration: 3s;
 }
 
 .libro3 {
   width: 200px;
+  animation-name: aparecer;
+  animation-duration: 3s;
 }
 
 .libro4 {
   width: 220px;
+  animation-name: aparecer;
+  animation-duration: 3s;
 }
 
 .libro {
@@ -316,6 +324,8 @@ h1 {
 
 .libro5 {
   width: 150px;
+  animation-name: aparecer;
+  animation-duration: 3s;
 }
 
 @media screen and (max-width: 375px) {

@@ -20,24 +20,37 @@
 
 .libro1 {
    width: $ancho;
+   animation-name: aparecer;
+   animation-duration: 3s;
    
 }
 
 
+
+
+
 .libro2 {
    width: $ancho + 30;
+   animation-name: aparecer;
+   animation-duration: 3s;
+   
 
 }
 
 
 .libro3{
    width: $ancho + 50;
+   animation-name: aparecer;
+   animation-duration: 3s;
+   
 
 
 }
 
 .libro4{
    width: $ancho + 70;
+   animation-name: aparecer;
+   animation-duration: 3s;
    
    
 }
@@ -61,6 +74,9 @@
    }
 .libro5{
    width: 150px;
+   animation-name: aparecer;
+   animation-duration: 3s;
+   
 }
 
  
